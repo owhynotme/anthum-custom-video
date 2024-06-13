@@ -22,6 +22,7 @@
       width: 100vw;
       height: 100vh;
       overflow: hidden;
+      display: none;
     }
 
     .multiple-items {
@@ -35,13 +36,18 @@
       object-fit: cover;
     }
 
+
     .slick-prev:before, .slick-next:before {
       display: none;
     }
     
+
     @media (max-width: 768px) {
-      .multiple-items img {
+      .multiple-items video {
         height: 100vh; /* Full height */
+      }
+      section{
+        display: block;
       }
     }
   </style>
